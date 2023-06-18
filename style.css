@@ -1,0 +1,596 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* NAV BAR------------------------------------------------------------------- */
+
+nav{
+    display: flex;
+    background-color: black;
+    height: 4.5rem;
+    width: 100vw;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;  
+    /* flex-basis: 70%; */
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 4rem;
+    /* color: white; */
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+    font-size: 1.5rem;
+}
+
+nav ul a:hover{
+    color: #D8A016;
+    font-weight: 500;
+}
+
+nav .logo{
+    height: 3.5rem;
+    width: 3.3rem;
+    /* flex-basis: 30%; */
+    margin-left: 3rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* 1st CONTAINER--------------------------------------------------------------- */
+
+#container-1{
+    background-image: linear-gradient(180deg, rgba(61, 61, 61, 0) 0%, #3D3D3D 100%);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+    grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+#container-1 h1{
+    grid-area: 2/2/4/5;
+    font-size: 6rem;
+    margin-top: 8rem;
+    /* color: white; */
+}
+
+#container-1 .img-2{
+    grid-area: 2/7/5/11;
+    height: 27rem;
+    margin-top: 5rem;
+}
+
+
+#container-1 .img-1{
+    height: 18rem;
+    grid-area: 2/5/4/8;
+    margin-top: 3rem;
+}
+
+#container-1 p{
+    grid-area: 3/2/5/6;
+    margin-top: 7rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; ;
+    /* color: white; */
+    /* width: 20rem; */
+}
+
+#container-1 button{
+    grid-area: 4/2/5/4;
+    height: 2.5rem;
+    width: 8rem;
+    margin-top: 2rem;
+    background-color: rgb(200, 30, 30);
+    border: none;
+    border-radius: 0.25rem;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+    /* opacity: 90%; */
+}
+
+#container-1 button:hover{
+    scale: 1.05;
+}
+
+/* Infographics : Speed------------- */
+
+#container-1 .speed-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/3/6/4;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-1 .speed-text1{
+    grid-area: 4/3/6/4;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-1 .speed-text2{
+    grid-area: 4/3/6/4;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-1 .speed-text3{
+    grid-area: 4/3/6/4;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-right: 1rem;
+}
+
+/* Infographics : Engine------------- */
+
+#container-1 .engine-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/6/6/7;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-1 .engine-text1{
+    grid-area: 4/6/6/7;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-1 .engine-text2{
+    grid-area: 4/6/6/7;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-1 .engine-text3{
+    grid-area: 4/6/6/7;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 1.3rem;
+}
+
+/* Infographics : Power------------- */
+
+#container-1 .power-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/9/6/10;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-1 .power-text1{
+    grid-area: 4/9/6/10;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-1 .power-text2{
+    grid-area: 4/9/6/10;
+    font-size: 1.7rem;
+    margin-top: 16.2rem;
+    margin-left: 6rem;
+}
+
+#container-1 .power-text3{
+    grid-area: 4/9/6/10;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 0.5rem;
+}
+
+
+/* 2nd CONTAINER--------------------------------------------------------------- */
+
+
+#container-2{
+    background-image: linear-gradient(180deg, rgba(61, 61, 61, 0) 0%, #3D3D3D 100%);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+    grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+    justify-content: center;
+}
+
+
+#container-2 h1{
+    grid-area: 2/2/4/5;
+    font-size: 6rem;
+    margin-top: 8rem;
+    /* color: white; */
+}
+
+#container-2 .img-2{
+    grid-area: 2/7/5/11;
+    height: 27rem;
+    margin-top: 5rem;
+}
+
+#container-2 .img-1{
+    height: 18rem;
+    grid-area: 2/5/4/8;
+    margin-top: 3rem;
+}
+
+#container-2 p{
+    grid-area: 3/2/5/6;
+    margin-top: 7rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; ;
+    /* color: white; */
+    /* width: 20rem; */
+}
+
+#container-2 button{
+    grid-area: 4/2/5/4;
+    height: 2.5rem;
+    width: 8rem;
+    margin-top: 2rem;
+    background-color: rgb(200, 30, 30);
+    border: none;
+    border-radius: 0.25rem;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+    /* opacity: 90%; */
+}
+
+#container-2 button:hover{
+    scale: 1.05;
+}
+
+/* Infographics : Speed------------- */
+
+#container-2 .speed-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/3/6/4;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-2 .speed-text1{
+    grid-area: 4/3/6/4;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-2 .speed-text2{
+    grid-area: 4/3/6/4;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-2 .speed-text3{
+    grid-area: 4/3/6/4;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-right: 1rem;
+}
+
+/* Infographics : Engine------------- */
+
+#container-2 .engine-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/6/6/7;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-2 .engine-text1{
+    grid-area: 4/6/6/7;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-2 .engine-text2{
+    grid-area: 4/6/6/7;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-2 .engine-text3{
+    grid-area: 4/6/6/7;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 1.3rem;
+}
+
+/* Infographics : Power------------- */
+
+#container-2 .power-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/9/6/10;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-2 .power-text1{
+    grid-area: 4/9/6/10;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-2 .power-text2{
+    grid-area: 4/9/6/10;
+    font-size: 1.7rem;
+    margin-top: 16.2rem;
+    margin-left: 6rem;
+}
+
+#container-2 .power-text3{
+    grid-area: 4/9/6/10;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+#container-3{
+    background-image: linear-gradient(180deg, rgba(61, 61, 61, 0) 0%, #3D3D3D 100%);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+    grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+    justify-content: center;
+}
+
+
+
+#container-3 h1{
+    grid-area: 2/2/4/5;
+    font-size: 6rem;
+    margin-top: 8rem;
+    /* color: white; */
+}
+
+#container-3 .img-2{
+    grid-area: 2/7/5/11;
+    height: 30rem;
+    margin-top: 1rem;
+}
+
+#container-3 .img-1{
+    height: 18rem;
+    grid-area: 2/5/4/8;
+    margin-top: 3rem;
+}
+
+#container-3 p{
+    grid-area: 3/2/5/6;
+    margin-top: 7rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; ;
+    /* color: white; */
+    /* width: 20rem; */
+}
+
+#container-3 button{
+    grid-area: 4/2/5/4;
+    height: 2.5rem;
+    width: 8rem;
+    margin-top: 2rem;
+    background-color: rgb(200, 30, 30);
+    border: none;
+    border-radius: 0.25rem;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+    /* opacity: 90%; */
+}
+
+#container-3 button:hover{
+    scale: 1.05;
+}
+
+/* Infographics : Speed------------- */
+
+#container-3 .speed-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/3/6/4;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-3 .speed-text1{
+    grid-area: 4/3/6/4;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-3 .speed-text2{
+    grid-area: 4/3/6/4;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-3 .speed-text3{
+    grid-area: 4/3/6/4;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-right: 1rem;
+}
+
+/* Infographics : Engine------------- */
+
+#container-3 .engine-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/6/6/7;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-3 .engine-text1{
+    grid-area: 4/6/6/7;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-3 .engine-text2{
+    grid-area: 4/6/6/7;
+    font-size: 2rem;
+    margin-top: 15.9rem;
+    margin-left: 4.7rem;
+}
+
+#container-3 .engine-text3{
+    grid-area: 4/6/6/7;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 1.3rem;
+}
+
+/* Infographics : Power------------- */
+
+#container-3 .power-img{
+    height: 4rem;
+    width: 4rem;
+    grid-area:5/9/6/10;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#container-3 .power-text1{
+    grid-area: 4/9/6/10;
+    font-size: 3rem;
+    margin-top: 15rem;
+    /* margin-right: 1.3rem; */
+}
+
+#container-3 .power-text2{
+    grid-area: 4/9/6/10;
+    font-size: 1.7rem;
+    margin-top: 16.2rem;
+    margin-left: 6rem;
+}
+
+#container-3 .power-text3{
+    grid-area: 4/9/6/10;
+    font-size: 1rem;
+    margin-top: 19rem;
+    margin-left: 0.5rem;
+}
+
+
+
+/* MOBILE RESPONSIVE------------------------------------- */
+
+@media (max-width:800px){
+
+    nav{
+        display: none;
+    }
+    #container-1 .img-2{
+        grid-area: 1/1/4/11;
+        height: 15rem;
+        margin-right: rem;
+        margin-top: 5rem;
+    }
+
+    #container-1 h1{
+        font-size: 4rem;
+        grid-area: 2/1/4/8;
+        margin-top: 11rem;
+    }
+
+    #container-1 .img-1{
+        height: 7rem;
+        grid-area: 2/8/4/11;
+        margin-top: 10.3rem;
+        margin-left: 1rem;
+    }
+
+    #container-1 p{
+        font-size: 1rem;
+        width: 20rem;
+        grid-area: 3/1/5/10;
+        margin-left: 1rem;
+    }
+
+    #container-1 button{
+        width:7rem;
+        /* margin-right: 3rem; */
+        grid-area: 3/1/5/5;
+        margin-top: 12.5rem;
+        margin-left: 1rem;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#container-4{
+    background-image: linear-gradient(180deg, rgba(61, 61, 61, 0) 0%, #3D3D3D 100%);
+    width: 100vw;
+    height: 100vh;
+}
